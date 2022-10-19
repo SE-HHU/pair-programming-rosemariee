@@ -44,8 +44,6 @@ public class ReadQustions {
                 } else {
                     wrong_index.add(i);
                 }
-            }
-            for (int i = 0; i < question.size(); i++) {
                 for (int j = 0; j < i; j++) {
                     if (getLegalStr(i + 1, question.get(i)).equals(getLegalStr(j + 1, question.get(j)))) {
                         repeat_index.add(new Pair(j + 1, i + 1));
