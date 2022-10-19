@@ -1,4 +1,4 @@
-# Pair Programming 设计文档
+# Pair Programming
 ---
 ## Team:
 Rosemariee<br/>
